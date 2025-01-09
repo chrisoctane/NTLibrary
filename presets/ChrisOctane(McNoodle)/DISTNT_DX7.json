@@ -1,0 +1,551 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "name": "DISTNT-DX           ",
+ "slots": [
+ {
+  "guid": "clck",
+   "specs": [
+   1,
+    0]
+   ,
+   "name": "Clock                  ",
+   "parameters": [
+   [
+    0,
+     900,
+     1,
+     4,
+     2,
+     1,
+     2,
+     0,
+     0,
+     0]
+    ,
+    [
+    1,
+     28,
+     1,
+     0,
+     9,
+     0,
+     50,
+     1,
+     0]
+    ]
+   }
+  ,
+  {
+  "guid": "clkm",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "Clock multiplier       ",
+   "parameters": [
+   28,
+    27,
+    1,
+    2,
+    0,
+    50]
+   }
+  ,
+  {
+  "guid": "srra",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "Shift Register Random  ",
+   "parameters": [
+   27,
+    0,
+    22,
+    21,
+    {
+    "v": -100,
+     "midi": {
+     "channel": 1,
+      "cc": 30,
+      "enabled": 1,
+      "symmetric": 1,
+      "min": -100,
+      "max": 100}
+     }
+    ,
+    0,
+    32,
+    30,
+    {
+    "v": 16,
+     "midi": {
+     "channel": 1,
+      "cc": 29,
+      "enabled": 1,
+      "symmetric": 1,
+      "min": -64,
+      "max": 80}
+     }
+    ,
+    0,
+    1,
+    50,
+    57,
+    1,
+    1]
+   }
+  ,
+  {
+  "guid": "srra",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "Shift Register Random  ",
+   "parameters": [
+   27,
+    0,
+    24,
+    23,
+    {
+    "v": -100,
+     "midi": {
+     "channel": 1,
+      "cc": 30,
+      "enabled": 1,
+      "symmetric": 1,
+      "min": -100,
+      "max": 100}
+     }
+    ,
+    1,
+    20,
+    30,
+    {
+    "v": 16,
+     "midi": {
+     "channel": 1,
+      "cc": 29,
+      "enabled": 1,
+      "symmetric": 1,
+      "min": -64,
+      "max": 80}
+     }
+    ,
+    0,
+    1,
+    50,
+    57,
+    1,
+    1]
+   }
+  ,
+  {
+  "guid": "quan",
+   "specs": [
+   1,
+    0]
+   ,
+   "name": "Quantizer              ",
+   "parameters": [
+   [
+    0,
+     0,
+     0,
+     4,
+     1,
+     4,
+     -12,
+     0,
+     2,
+     0,
+     0,
+     -1,
+     0,
+     48,
+     13068,
+     1]
+    ,
+    [
+    22,
+     21,
+     22,
+     21,
+     0]
+    ]
+   }
+  ,
+  {
+  "guid": "quan",
+   "specs": [
+   1,
+    0]
+   ,
+   "name": "Quantizer              ",
+   "parameters": [
+   [
+    0,
+     12,
+     7,
+     4,
+     1,
+     4,
+     -12,
+     0,
+     2,
+     0,
+     0,
+     -1,
+     0,
+     48,
+     13068,
+     1]
+    ,
+    [
+    24,
+     23,
+     24,
+     23,
+     0]
+    ]
+   }
+  ,
+  {
+  "guid": "pyfm",
+   "specs": [
+   1,
+    8]
+   ,
+   "timbres": [
+   {
+    "bank": "!ROM1A.syx",
+     "voice": "TUB BELLS "}
+    ]
+   ,
+   "name": "Poly FM                ",
+   "parameters": [
+   [
+    0,
+     0,
+     0,
+     -1,
+     0,
+     48,
+     13081,
+     0]
+    ,
+    [
+    1,
+     26,
+     1,
+     1,
+     13,
+     14,
+     21,
+     23,
+     0,
+     0,
+     0,
+     0,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     {
+     "v": -47,
+      "midi": {
+      "channel": 1,
+       "cc": 27,
+       "enabled": 1,
+       "symmetric": 1,
+       "min": -100,
+       "max": 100}
+      }
+     ,
+     {
+     "v": -65,
+      "midi": {
+      "channel": 1,
+       "cc": 26,
+       "enabled": 1,
+       "symmetric": 1,
+       "min": -100,
+       "max": 100}
+      }
+     ,
+     0,
+     0,
+     -6,
+     1,
+     2,
+     0,
+     -8,
+     5,
+     3,
+     0,
+     0,
+     1,
+     0,
+     3,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0]
+    ]
+   }
+  ,
+  {
+  "guid": "junc",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "Chorus (Vintage)       ",
+   "parameters": [
+   13,
+    14,
+    13,
+    14,
+    0,
+    1]
+   }
+  ,
+  {
+  "guid": "fsvf",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "VCF (State Variable)   ",
+   "parameters": [
+   13,
+    0,
+    0,
+    0,
+    0,
+    13,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    {
+    "v": 5659,
+     "midi": {
+     "channel": 1,
+      "cc": 28,
+      "enabled": 1,
+      "symmetric": 0,
+      "min": -3600,
+      "max": 8400}
+     }
+    ,
+    20,
+    1,
+    -6,
+    -6,
+    0,
+    0]
+   }
+  ,
+  {
+  "guid": "fsvf",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "VCF (State Variable)   ",
+   "parameters": [
+   14,
+    0,
+    0,
+    0,
+    0,
+    14,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    {
+    "v": 5659,
+     "midi": {
+     "channel": 1,
+      "cc": 28,
+      "enabled": 1,
+      "symmetric": 0,
+      "min": -3600,
+      "max": 8400}
+     }
+    ,
+    20,
+    1,
+    -6,
+    -6,
+    0,
+    0]
+   }
+  ,
+  {
+  "guid": "gran",
+   "specs": [
+   4,
+    0]
+   ,
+   "sample": "",
+   "normalize": 0,
+   "name": "Granulator             ",
+   "parameters": [
+   2106,
+    -2,
+    {
+    "v": -2,
+     "midi": {
+     "channel": 1,
+      "cc": 25,
+      "enabled": 1,
+      "symmetric": 0,
+      "min": -40,
+      "max": 6}
+     }
+    ,
+    {
+    "v": -17,
+     "midi": {
+     "channel": 1,
+      "cc": 24,
+      "enabled": 1,
+      "symmetric": 0,
+      "min": -40,
+      "max": 6}
+     }
+    ,
+    1,
+    0,
+    132,
+    70,
+    743,
+    45,
+    0,
+    14,
+    0,
+    85,
+    29,
+    31,
+    0,
+    50,
+    10,
+    196,
+    0,
+    35,
+    64,
+    64,
+    17,
+    95,
+    100,
+    0,
+    100,
+    0,
+    1,
+    24,
+    48,
+    36,
+    60,
+    1,
+    1,
+    1,
+    30,
+    71,
+    56,
+    0,
+    0,
+    0,
+    24,
+    2,
+    18,
+    0,
+    0,
+    288,
+    0,
+    0,
+    0,
+    13,
+    14,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    13,
+    14,
+    1,
+    1,
+    1,
+    0]
+   }
+  ,
+  {
+  "guid": "satu",
+   "specs": [
+   2,
+    0]
+   ,
+   "name": "Saturation             ",
+   "parameters": [
+   [
+    0,
+     12,
+     0]
+    ,
+    [
+    13,
+     1]
+    ,
+    [
+    14,
+     1]
+    ]
+   }
+  ,
+  {
+  "guid": "revb",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "Reverb                 ",
+   "parameters": [
+   13,
+    14,
+    13,
+    14,
+    1,
+    28,
+    3744,
+    2,
+    100,
+    78,
+    250,
+    13,
+    -40,
+    -6]
+   }
+  ]
+ }

@@ -1,0 +1,61 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "author": "Octane               ",
+ "name": "Interesting passion ",
+ "slots": [{
+  "guid": "vcot",
+   "specs": [0,0,0]
+   ,
+   "wavetable": "CRV_bitty.wav",
+   "name": "VCO - wavetable        ",
+   "parameters": [1,0,13,0,2,0,0,0,0,1000,0]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [0,0,0]
+    ,
+    "display": "gui"}
+   }
+  ,{
+  "guid": "mix2",
+   "specs": [2,0,0]
+   ,
+   "name": "Mixer Stereo           ",
+   "parameters": [[13,14,0,1]
+    ,[]
+    ,[[[13,0,-10,0,0,0]
+      ]
+     ,[[3,4,-700,0,0,0]
+      ]
+     ]
+    ]
+   ,
+   "ui": {
+   "page": 1,
+    "items": [0,0,2]
+    ,
+    "display": "gui"}
+   }
+  ,{
+  "guid": "satu",
+   "specs": [2,0,0]
+   ,
+   "name": "Saturation             ",
+   "parameters": [[0,0,0]
+    ,[13,1]
+    ,[14,0]
+    ]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [0,0]
+    ,
+    "display": "params"}
+   }
+  ]
+ ,
+ "ui": {
+ "currentSlot": 0,
+  "displayMode": "algorithm"}
+ }

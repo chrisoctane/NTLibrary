@@ -1,0 +1,81 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "author": "Anonymous            ",
+ "name": "Plaits CTRL         ",
+ "slots": [
+ {
+  "guid": "mac2",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "Macro Oscillator 2     ",
+   "parameters": [
+   6,
+    {
+    "v": -24,
+     "cv": {
+     "input": 1,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 10,
+      "delta": 49}
+     }
+    ,
+    0,
+    64,
+    64,
+    64,
+    0,
+    92,
+    85,
+    55,
+    64,
+    5,
+    0,
+    6,
+    0,
+    2,
+    3,
+    4,
+    13,
+    0,
+    0,
+    6,
+    0,
+    0,
+    0,
+    1,
+    1]
+   }
+  ,
+  {
+  "guid": "conv",
+   "specs": [
+   3,
+    0]
+   ,
+   "folder": "impulse",
+   "sample": "AcademicQuadrangle.wav",
+   "name": "Convolver              ",
+   "parameters": [
+   13,
+    14,
+    13,
+    14,
+    1,
+    -6,
+    0,
+    13,
+    3,
+    2,
+    1,
+    2]
+   }
+  ]
+ ,
+ "ui": {
+ "currentSlot": 1,
+  "displayMode": "gui"}
+ }

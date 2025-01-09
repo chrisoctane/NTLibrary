@@ -1,0 +1,48 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "author": "Octane               ",
+ "name": "Lumpy post toe      ",
+ "slots": [{
+  "guid": "clck",
+   "specs": [4,0,0]
+   ,
+   "name": "Clock                  ",
+   "parameters": [[2,687,1,4,2,1,8,0,0,0]
+    ,[1,13,0,3,6,0,50,1,0,10]
+    ,[1,14,1,1,9,0,50,1,0,10]
+    ,[0,17,1,0,9,0,50,1,0,10]
+    ,[0,18,1,0,9,0,50,1,0,10]
+    ]
+   ,
+   "ui": {
+   "page": 2,
+    "items": [0,0,0,3]
+    ,
+    "display": "gui"}
+   }
+  ,{
+  "guid": "pyms",
+   "specs": [1,8,0]
+   ,
+   "timbres": [{
+    "folder": "LABS Hi Strings Long"}
+    ]
+   ,
+   "name": "Poly Multisample       ",
+   "parameters": [[2,2,0,0,-1,0,48,13081,1,0]
+    ,[0,0,31,15,16,0,0,1,1,1,0,60,100,119,100,0,0,0,0,0,0,1,1,1,1,1,1,1,2,0,0,1,1,0,0,1,0,3,0,0,1,0,0,0,0]
+    ]
+   ,
+   "ui": {
+   "page": 2,
+    "items": [0,0,0,3,8,3]
+    ,
+    "display": "params"}
+   }
+  ]
+ ,
+ "ui": {
+ "currentSlot": 1,
+  "displayMode": "algorithm"}
+ }

@@ -1,0 +1,78 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "author": "Octane               ",
+ "name": "Serene vegetable    ",
+ "slots": [{
+  "guid": "pyms",
+   "specs": [1,8,0]
+   ,
+   "timbres": [{
+    "folder": "acoustic guitar"}
+    ]
+   ,
+   "name": "Poly Multisample       ",
+   "parameters": [[0,0,0,0,-1,0,48,13081,0,0]
+    ,[-33,0,3,13,14,0,0,1,1,1,0,73,100,91,100,1,3,0,0,0,0,1,1,1,1,1,1,1,2,0,0,1,1,0,0,1,0,3,0,0,1,0,0,0,0]
+    ]
+   ,
+   "ui": {
+   "page": 4,
+    "items": [2,4,3,5,0,0]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "junc",
+   "specs": [0,0,0]
+   ,
+   "name": "Chorus (Vintage)       ",
+   "parameters": [13,14,13,14,1,2]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [4,0]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "revb",
+   "specs": [0,0,0]
+   ,
+   "name": "Reverb                 ",
+   "parameters": [13,14,13,14,0,37,5880,1,81,61,250,3,-16,-6]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [0,1]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "dels",
+   "specs": [2,0,0]
+   ,
+   "name": "Delay (Stereo)         ",
+   "parameters": [13,14,13,14,0,1,55,-2,{
+    "v": 43,
+     "cv": {
+     "input": 9,
+      "unipolar": 1,
+      "isGate": 0,
+      "volts": 10,
+      "delta": 70}
+     }
+    ,90,-100,4,0,0]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [1,0]
+    ,
+    "display": "params"}
+   }
+  ]
+ ,
+ "ui": {
+ "currentSlot": 3,
+  "displayMode": "overview"}
+ }

@@ -1,0 +1,25 @@
+This Folder [DistingNT_Master]
+==============================
+This folder is a master copy of everything required by the module to minimise user fuss and enhance the new-user experience.  You can format your MicroSD card then copy everything here to it, exactly as it's laid out here.  If you do so, everything on your Disting NT will work out of the box with the latest firmware.
+
+
+!Master_Library_24_12_31
+==============
+holds all of the upto date community expansion content (with the date of our latest update at the end).  This doesn't have to be on your SDcard in order for everything to work but I find it handy to keep a copy on my own SDcards.  The folder also includes the latest downloads for updating the Disting NT, editors, dev tools and other tools & software.
+
+Usage
+=====
+There are limits on the number of files/folders that can be used in the samples folder - 10,000 samples shared by 1000 folders, currently.
+
+I find it best practice to delete everything in a folder (eg. the samples folder) before copying other content into it. I'll try to make sure that these folders aren't too big to copy - but if you run into any issues, flag them in the Expert Sleepers Discord.
+
+UI scripts
+==========
+2 presets with LUA UI are available in the presets folder.  To try these out, load the preset then load the corresponding LUA GUI file to see some cool macro action thanks to @chordsmaze.
+
+
+If you have samples, multisamples, suggestions or anything else to share, bring it to the Discord and we'll add it to the pack.
+
+Have fun 
+
+Chris.
